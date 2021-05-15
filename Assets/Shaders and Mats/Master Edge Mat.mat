@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master Edge Mat
+  m_Shader: {fileID: -6465566751694194690, guid: de8f81663ed572c469885410cc5d351d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Base_Height: 1.85
+    - Base_Pow: 2.85
+    - Base_Scale: 5.57
+    - Grass_Steepness: 0.5
+    - Max_Grass_Elevation: 0.25
+    - Mountain_Height: 2.84
+    - Mountain_Pow: 1.33
+    - Mountain_Scale: 1.23
+    - River_Height: 0.87
+    - River_Pow: 10
+    - River_Scale: 0.9
+    - Shore_Elevation: 0.49
+    - Snow_Elevation: 2
+    - Snow_Steepness: 0.5
+    m_Colors:
+    - Grass_Color: {r: 0.39005336, g: 0.6415094, b: 0.124065466, a: 0}
+    - Rock_Color: {r: 0.5566037, g: 0.51299, b: 0.48571557, a: 1}
+    - Shore_Color: {r: 0.9937909, g: 1, b: 0.6179245, a: 1}
+    - Snow_Color: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 0}
+    - _Offset: {r: 14.72, g: -6, b: 0, a: 0}
+  m_BuildTextureStacks: []

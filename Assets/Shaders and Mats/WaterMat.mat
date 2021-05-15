@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterMat
+  m_Shader: {fileID: -6465566751694194690, guid: ee654c4bba029eb4492b1d57c0f965cc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BottomTransparency: 0
+    - Depth: 0
+    - Distance: 0
+    - Ripple_Scale: 300
+    - Ripple_Strength: 0.0133
+    - _Blend: 1.92
+    m_Colors:
+    - Deep_Color: {r: 0, g: 0.29155442, b: 0.41509432, a: 0.9411765}
+    - Shallow_Color: {r: 0.1462264, g: 0.51678765, b: 0.5849056, a: 0.62352943}
+    - _Color: {r: 0.023718417, g: 0.23048595, b: 0.38679245, a: 1}
+  m_BuildTextureStacks: []
