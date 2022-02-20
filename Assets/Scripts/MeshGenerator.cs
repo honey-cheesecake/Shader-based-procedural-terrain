@@ -40,7 +40,6 @@ public class MeshGenerator : MonoBehaviour {
         meshFilter.mesh = mesh;
 
         CreateVerts();
-        CreateTris();
         SetHeight();
 
         // saves performance by only updating mesh when dirty
@@ -70,6 +69,7 @@ public class MeshGenerator : MonoBehaviour {
     void CreateVerts() {
         vertices = new Vector3[(numFaces.x + 1) * (numFaces.y + 1)];
         uvs = new Vector2[(numFaces.x + 1) * (numFaces.y + 1)];
+        triangles = new int[numFaces.x * numFaces.y * 6];
 
         var kernel = vertGeneratorShader.FindKernel("CSMain");
 
@@ -82,12 +82,15 @@ public class MeshGenerator : MonoBehaviour {
         // set buffers
         var vertsBuffer = new ComputeBuffer(vertices.Length, System.Runtime.InteropServices.Marshal.SizeOf(typeof(Vector3)));
         var uvsBuffer = new ComputeBuffer(uvs.Length, System.Runtime.InteropServices.Marshal.SizeOf(typeof(Vector2)));
+        var trisBuffer = new ComputeBuffer(triangles.Length, System.Runtime.InteropServices.Marshal.SizeOf(typeof(int)));
 
         vertsBuffer.SetData(vertices);
         uvsBuffer.SetData(uvs);
+        trisBuffer.SetData(triangles);
 
         vertGeneratorShader.SetBuffer(kernel, "verts", vertsBuffer);
         vertGeneratorShader.SetBuffer(kernel, "uvs", uvsBuffer);
+        vertGeneratorShader.SetBuffer(kernel, "tris", trisBuffer);
 
         // diapatch
         vertGeneratorShader.GetKernelThreadGroupSizes(kernel, out uint threadsX, out uint threadsY, out uint threadsZ);
@@ -95,33 +98,13 @@ public class MeshGenerator : MonoBehaviour {
 
         // retreive data
         vertsBuffer.GetData(vertices);
-        vertsBuffer.Dispose();
         uvsBuffer.GetData(uvs);
+        trisBuffer.GetData(triangles);
+        vertsBuffer.Dispose();
         uvsBuffer.Dispose();
+        trisBuffer.Dispose();
     }
-    void CreateTris() {
-        triangles = new int[numFaces.x * numFaces.y * 6];
 
-        int vertIdx = 0;
-        int triIdx = 0;
-        for (int y = 0; y < numFaces.y; y++) {
-            for (int x = 0; x < numFaces.x; x++) {
-                // lower left triangle of quad
-                triangles[triIdx + 0] = vertIdx + 0;
-                triangles[triIdx + 1] = vertIdx + numFaces.x + 1;
-                triangles[triIdx + 2] = vertIdx + 1;
-
-                // upper right triangle of quad
-                triangles[triIdx + 3] = vertIdx + 1;
-                triangles[triIdx + 4] = vertIdx + numFaces.x + 1;
-                triangles[triIdx + 5] = vertIdx + numFaces.x + 2;
-
-                ++vertIdx;
-                triIdx += 6;
-            }
-            ++vertIdx; // skips triangle going from one row to the next
-        }
-    }
     void SetHeight() {
         //float[,] noise = NoiseMapGeneration.GenerateNoiseMap(numFaces.x + 1, numFaces.y + 1, 0, 0, noiseProfile);
 

@@ -3,6 +3,7 @@
 
 RWStructuredBuffer<float3> verts;
 RWStructuredBuffer<float2> uvs;
+RWStructuredBuffer<int> tris;
 
 float dx, dy;
 uint xCount, yCount;
@@ -11,8 +12,21 @@ uint xCount, yCount;
 void CSMain (uint3 id : SV_DispatchThreadID)
 {
 	if (id.x > (xCount - 1) || id.y > (yCount - 1)) { return; }
-	int idx = id.x + xCount  * id.y;
+	int vertIdx = id.x + xCount  * id.y;
 	
-	verts[idx] = float3(dx * id.x, 0, dy * id.y);
-	uvs[idx] = float2((float)id.x / (float)(xCount - 1), (float)id.y / (float)(yCount - 1));
+	verts[vertIdx] = float3(dx * id.x, 0, dy * id.y);
+	uvs[vertIdx] = float2((float)id.x / (float)(xCount - 1), (float)id.y / (float)(yCount - 1));
+
+	if (id.x == (xCount - 1) || id.y == (yCount - 1)) { return; }
+
+	// lower left triangle of quad
+	uint triIdx = (id.x + (xCount - 1) * id.y) * 6;
+	tris[triIdx + 0] = vertIdx + 0;
+	tris[triIdx + 1] = vertIdx + xCount;
+	tris[triIdx + 2] = vertIdx + 1;
+
+	// upper right triangle of quad
+	tris[triIdx + 3] = vertIdx + 1;
+	tris[triIdx + 4] = vertIdx + xCount;
+	tris[triIdx + 5] = vertIdx + xCount + 1;
 }
