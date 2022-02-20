@@ -442,3 +442,222 @@ System memory in use after: 168.3 MB.
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4650.
 Total: 5.885000 ms (FindLiveObjects: 0.360200 ms CreateObjectMapping: 0.870000 ms MarkObjects: 2.953700 ms  DeleteObjects: 1.699600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3597.985881 seconds.
+  path: Assets/Scripts/VertGenerator.compute
+  artifactKey: Guid(d2947716aedbf2345900b1dc20097542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VertGenerator.compute using Guid(d2947716aedbf2345900b1dc20097542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89b6829fb32922fa87c2201dbdc1491') in 0.033503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.430032 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3013c3b22697d53ab737963500d2476d') in 0.014904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4407.067562 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8071c742fd0b6ad6e76f5191f26369') in 0.005948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.418498 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b50267a5d960ece71921e7fa359f1e8') in 0.030534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.353539 seconds.
+  path: Assets/Shaders and Mats/Mesh based
+  artifactKey: Guid(18794a0ae9c339746a4067555ae2e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based using Guid(18794a0ae9c339746a4067555ae2e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd8f478bcc65df4212a02fa6895ad08') in 0.011387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.201621 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
+  artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2891ec29d905fd7e6b2023aaccfad1') in 0.013827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.715998 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Mat.mat
+  artifactKey: Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Mat.mat using Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093eebfd3581b400a79527548d6218ca') in 0.307961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 490.372616 seconds.
+  path: Assets/Shaders and Mats/_FractalNoise/FractalNoise.shadersubgraph
+  artifactKey: Guid(d00b96c1fca247649afb54278e7cf85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/_FractalNoise/FractalNoise.shadersubgraph using Guid(d00b96c1fca247649afb54278e7cf85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beb41aa796a01b4bd1a649519493def') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.159369 seconds.
+  path: Assets/Shaders and Mats/Mesh based/New Material.mat
+  artifactKey: Guid(206f3c1a75457b6438bf7e66b758ca9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/New Material.mat using Guid(206f3c1a75457b6438bf7e66b758ca9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd462d79849c003c7d91b8de7053c430d') in 0.030669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 610.227736 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8529979e39865f74ab8680c9f847f22d') in 0.032471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.585054 seconds.
+  path: Assets/Sprites/lensDirt1.png
+  artifactKey: Guid(9835a2dfc915c1146b2827cc87f08469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lensDirt1.png using Guid(9835a2dfc915c1146b2827cc87f08469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d162c712079270fa85e66c828bca704') in 0.018293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/PP On.png
+  artifactKey: Guid(6fcc32f9d2eec1d4187dc924c844c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PP On.png using Guid(6fcc32f9d2eec1d4187dc924c844c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c88546b8a165eca8380f2e902938c') in 0.032005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/Scenes/Main/ReflectionProbe-0.exr
+  artifactKey: Guid(b4a6c3fe49037b54e8019fdb34d68362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/ReflectionProbe-0.exr using Guid(b4a6c3fe49037b54e8019fdb34d68362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f02c2c91e6f030dd271b988dc0e9910') in 0.060692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sprites/PP Off.png
+  artifactKey: Guid(862393bd9017b6b40b8a8891437ad801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PP Off.png using Guid(862393bd9017b6b40b8a8891437ad801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f3ea6bef12eeb3ef765eae1c3e026b') in 0.021762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.594114 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
+  artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c772e0507195dd4020d73ec0c4f5e0e') in 0.005696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.889097 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Mat.mat
+  artifactKey: Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Mat.mat using Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e60aeb1a75aa0426116c40902066169') in 0.032002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.406689 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
+  artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f25e6712e73b0bedf7647c6ff235b09') in 0.007797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.810393 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
+  artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c815d0e610359e93e2987ea6fe75357') in 0.005246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.216210 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Mat.mat
+  artifactKey: Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Mat.mat using Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d512c0e8d9135a3ef4b961efa21a19') in 0.032995 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 179.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4813.
+Total: 6.381100 ms (FindLiveObjects: 0.644600 ms CreateObjectMapping: 0.413500 ms MarkObjects: 4.156000 ms  DeleteObjects: 1.165000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.9 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4816.
+Total: 3.873100 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.243400 ms MarkObjects: 2.190300 ms  DeleteObjects: 1.090200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1180.534936 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166f75079e85203dd1c11c4cc8437ea4') in 0.077312 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.8 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4819.
+Total: 4.886000 ms (FindLiveObjects: 0.995900 ms CreateObjectMapping: 0.454400 ms MarkObjects: 2.292400 ms  DeleteObjects: 1.142300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.482594 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051a3385dbf78249d750b71e6703edd2') in 0.027524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4625.961665 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82bfa54d1fb8106a2b2eefe696ed724') in 0.004641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.315382 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874f7773060d82929554ae4397cb2a16') in 0.005181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.988918 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae8201d0d16271e57f5d340ace21c02') in 0.004221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.045033 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
+  artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e60cd503bc4bafefbc0e323194c3da') in 0.006376 seconds 

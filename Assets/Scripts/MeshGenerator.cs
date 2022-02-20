@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeshGenerator : MonoBehaviour {
-    [SerializeField] MeshFilter meshFilter = null;
+public class MeshGenerator : MonoBehaviour
+{
+    [SerializeField] MeshFilter meshFilter = default;
+    [SerializeField] Renderer renderer = default;
     [SerializeField] Vector2Int numFaces = Vector2Int.one;
     [SerializeField] Vector2 size = Vector2.one;
     [SerializeField] float baseHeightMult = 1f;
@@ -12,6 +14,8 @@ public class MeshGenerator : MonoBehaviour {
     [SerializeField] NoiseProfile creviceNoise = null;
 
     [SerializeField] ComputeShader vertGeneratorShader = default;
+    [SerializeField] ComputeShader heightmapGeneratorShader = default;
+    [SerializeField] RenderTexture renderTexture = default;
 
     Mesh mesh; // output
 
@@ -23,16 +27,20 @@ public class MeshGenerator : MonoBehaviour {
     NoiseProfile creviceNoiseCopy = null;
     float baseHeightMultCopy;
     float creviceHeightMultCopy;
-    void Start() {
+    void Start()
+    {
         GenerateMesh();
     }
 
     [ContextMenu("Generate")]
-    void GenerateMesh() {
+    void GenerateMesh()
+    {
         // create new mesh and assign to meshfilter
-        if (meshFilter == null) {
+        if (meshFilter == null)
+        {
             meshFilter = GetComponent<MeshFilter>();
-            if (meshFilter == null) {
+            if (meshFilter == null)
+            {
                 Debug.LogError("No meshfilter assigned and unable to get meshfilter compnent attached to gameobject!");
             }
         }
@@ -40,6 +48,7 @@ public class MeshGenerator : MonoBehaviour {
         meshFilter.mesh = mesh;
 
         CreateVerts();
+        GenerateHeightMap();
         SetHeight();
 
         // saves performance by only updating mesh when dirty
@@ -49,12 +58,14 @@ public class MeshGenerator : MonoBehaviour {
         PushToMesh();
     }
 
-    void Update() {
+    void Update()
+    {
         // saves performance by only updating mesh when dirty
         if (baseNoiseCopy != baseNoise ||
         creviceNoiseCopy != creviceNoise ||
         baseHeightMultCopy != baseHeightMult ||
-        creviceHeightMultCopy != creviceHeightMult) {
+        creviceHeightMultCopy != creviceHeightMult)
+        {
 
             baseNoiseCopy.Copy(baseNoise);
             creviceNoiseCopy.Copy(creviceNoise);
@@ -66,7 +77,8 @@ public class MeshGenerator : MonoBehaviour {
         }
     }
 
-    void CreateVerts() {
+    void CreateVerts()
+    {
         vertices = new Vector3[(numFaces.x + 1) * (numFaces.y + 1)];
         uvs = new Vector2[(numFaces.x + 1) * (numFaces.y + 1)];
         triangles = new int[numFaces.x * numFaces.y * 6];
@@ -105,12 +117,38 @@ public class MeshGenerator : MonoBehaviour {
         trisBuffer.Dispose();
     }
 
-    void SetHeight() {
+    void GenerateHeightMap()
+    {
+        //if (renderTexture = null)
+        {
+            renderTexture = new RenderTexture(numFaces.x, numFaces.y, 0, RenderTextureFormat.ARGB32)
+            {
+                enableRandomWrite = true
+            };
+            renderTexture.Create();
+        }
+
+        var kernel = heightmapGeneratorShader.FindKernel("CSMain");
+        heightmapGeneratorShader.SetTexture(kernel, "Result", renderTexture);
+        heightmapGeneratorShader.SetInt("width", numFaces.x);
+        heightmapGeneratorShader.SetInt("height", numFaces.y);
+
+        vertGeneratorShader.GetKernelThreadGroupSizes(kernel, out uint threadsX, out uint threadsY, out uint threadsZ);
+        heightmapGeneratorShader.Dispatch(kernel, Mathf.CeilToInt((float)(numFaces.x) / threadsX), Mathf.CeilToInt((float)(numFaces.y) / threadsX), 1);
+
+        renderer.enabled = true;
+        renderer.sharedMaterial.SetTexture("_Texture2D", renderTexture);
+    }
+
+    void SetHeight()
+    {
         //float[,] noise = NoiseMapGeneration.GenerateNoiseMap(numFaces.x + 1, numFaces.y + 1, 0, 0, noiseProfile);
 
         int idx = 0;
-        for (int y = 0; y <= numFaces.y; y++) {
-            for (int x = 0; x <= numFaces.x; x++) {
+        for (int y = 0; y <= numFaces.y; y++)
+        {
+            for (int x = 0; x <= numFaces.x; x++)
+            {
                 float baseHeight = baseHeightMult * NoiseMapGeneration.Evaluate((float)x / numFaces.x * size.x, (float)y / numFaces.y * size.y, baseNoise);
                 float creviceHeight = creviceHeightMult * NoiseMapGeneration.Evaluate((float)x / numFaces.x * size.x, (float)y / numFaces.y * size.y, creviceNoise);
                 vertices[idx].y = baseHeight - creviceHeight;
@@ -120,7 +158,8 @@ public class MeshGenerator : MonoBehaviour {
 
     }
 
-    void PushToMesh() {
+    void PushToMesh()
+    {
         mesh.Clear();
 
         mesh.vertices = vertices;
