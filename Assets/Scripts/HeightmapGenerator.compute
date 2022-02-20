@@ -2,51 +2,47 @@
 
 RWTexture2D<float> Result;
 int width, height;
+float2 offset;
+float scale;
+float power;
 
-float dropOff(float x);
-float noiseS(float2 g, float2 v);
-float noise(float4 v);
-float2 grad(uint2 u);
-
+float noise(float3 x);
 
 [numthreads(8, 8, 1)]
 void CSMain(uint3 id : SV_DispatchThreadID)
 {
-	float4 v = float4(id.xyxy) / float4(width,height,width,height);
-	Result[id.xy] = (1.0 + noise(float4(id.xyxy) * pow(2.0, 3) / float4(width, height, width, height))) * 0.5f;
+	float3 offset3 = float3(offset, 0);
+	Result[id.xy] =
+		pow((noise(id * scale + offset3) +
+			0.5 * noise(id * 2 * scale + offset3) +
+			0.25 *  noise(id * 4 * scale + offset3) +
+			0.125 *noise(id * 8 * scale + offset3))
+		/ (1 + 0.5 + 0.25 + 0.215), power);
 }
 
-float dropOff(float x)
+
+//https://thebookofshaders.com/11/
+// https://www.reddit.com/r/proceduralgeneration/comments/i86ss9/compute_shader_noise_for_landscape_generation/
+// https://gpfault.net/posts/perlin-noise.txt.html
+
+// https://stackoverflow.com/questions/15628039/simplex-noise-shader
+float hash(float n)
 {
-	float v = 1 - abs(x);
-	//return 3 * v * v - 2 * v * v * v; // weird normals
-	return 6 * pow(v, 5) - 15 * pow(v, 4) + 10 * pow(v, 3); // nice normals
+	return frac(sin(n)*43758.5453);
 }
 
-uint wang_hash(uint seed)
+float noise(float3 x)
 {
-	seed = (seed ^ 61) ^ (seed >> 16);
-	seed *= 9;
-	seed = seed ^ (seed >> 4);
-	seed *= 0x27d4eb2d;
-	seed = seed ^ (seed >> 15);
-	return seed;
-}
+	// The noise function returns a value in the range -1.0f -> 1.0f
 
-float2 grad(uint2 seed)
-{
-	return normalize(uint2(wang_hash(seed.x), wang_hash(seed.y)));
-}
+	float3 p = floor(x);
+	float3 f = frac(x);
 
-float noiseS(float2 g, float2 v)
-{
-	return dot(g, v.xy) * dropOff(v.x) * dropOff(v.y);
-}
+	f = f * f*(3.0 - 2.0*f);
+	float n = p.x + p.y*57.0 + 113.0*p.z;
 
-float noise(float4 v)
-{
-	uint4 gi = floor(v.xyxy) + uint4(0, 0, 1, 1);
-	v = frac(v.xyxy) - float4(0.0, 0.0, 1.0, 1.0);
-
-	return noiseS(grad(gi.xy), v.xy) + noiseS(grad(gi.zy), v.zy) + noiseS(grad(gi.xw), v.xw) + noiseS(grad(gi.zw), v.zw);
+	return lerp(lerp(lerp(hash(n + 0.0), hash(n + 1.0), f.x),
+		lerp(hash(n + 57.0), hash(n + 58.0), f.x), f.y),
+		lerp(lerp(hash(n + 113.0), hash(n + 114.0), f.x),
+			lerp(hash(n + 170.0), hash(n + 171.0), f.x), f.y), f.z);
 }

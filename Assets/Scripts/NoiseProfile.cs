@@ -4,34 +4,72 @@ using UnityEngine;
 
 [System.Serializable]
 public class NoiseProfile {
-    public float seed;
+    public Vector2 offset;
     public bool ridge;
-    public float scale = 30;
+    [Range(0, 1)] public float scale = 0.2f;
     [Range(0, 10)] public float pow = 1;
-    [Range(1, 5)] public int octaves = 3;
-    [Range(0, 1)] public float persistance = 0.5f;
-    [Range(1, 10)] public float lacunarity = 2;
 
     public void Copy(NoiseProfile src) {
-        seed = src.seed;
+        offset = src.offset;
         ridge = src.ridge;
         scale = src.scale;
         pow = src.pow;
-        octaves = src.octaves;
-        persistance = src.persistance;
-        lacunarity = src.lacunarity;
     }
+
     public static bool operator ==(NoiseProfile a, NoiseProfile b) {
-        return (a.seed == b.seed) &&
+        return (a.offset == b.offset) &&
         (a.ridge == b.ridge) &&
         (a.scale == b.scale) &&
-        (a.pow == b.pow) &&
-        (a.octaves == b.octaves) &&
-        (a.persistance == b.persistance) &&
-        (a.lacunarity == b.lacunarity);
+        (a.pow == b.pow);
     }
 
     public static bool operator !=(NoiseProfile a, NoiseProfile b) {
         return !(a == b);
+    }
+
+    // auto generated 
+    public override bool Equals(object obj)
+    {
+        var profile = obj as NoiseProfile;
+        return profile != null &&
+               offset == profile.offset &&
+               ridge == profile.ridge &&
+               scale == profile.scale &&
+               pow == profile.pow;
+    }
+
+    public override int GetHashCode()
+    {
+        var hashCode = 789363370;
+        hashCode = hashCode * -1521134295 + offset.GetHashCode();
+        hashCode = hashCode * -1521134295 + ridge.GetHashCode();
+        hashCode = hashCode * -1521134295 + scale.GetHashCode();
+        hashCode = hashCode * -1521134295 + pow.GetHashCode();
+        return hashCode;
+    }
+    // end
+
+    public RenderTexture GenerateNoiseMap(int mapWidth, int mapHeight, ComputeShader shader)
+    {
+
+        var renderTexture = new RenderTexture(mapWidth, mapHeight, 0, RenderTextureFormat.ARGB32)
+        {
+            enableRandomWrite = true
+        };
+        renderTexture.Create();
+
+        var kernel = shader.FindKernel("CSMain");
+        shader.SetTexture(kernel, "Result", renderTexture);
+        shader.SetInt("width", mapWidth);
+        shader.SetInt("height", mapHeight);
+        shader.SetFloat("scale", this.scale);
+        shader.SetFloats("offset", offset.x, offset.y);
+        shader.SetFloat("power", pow);
+
+        shader.GetKernelThreadGroupSizes(kernel, out uint threadsX, out uint threadsY, out uint threadsZ);
+        shader.Dispatch(kernel, Mathf.CeilToInt((float)mapWidth / threadsX), Mathf.CeilToInt((float)mapHeight / threadsX), 1);
+
+
+        return renderTexture;
     }
 }

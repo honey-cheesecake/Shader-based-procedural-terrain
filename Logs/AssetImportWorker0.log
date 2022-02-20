@@ -661,3 +661,1152 @@ Received Import Request.
   path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
   artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e60cd503bc4bafefbc0e323194c3da') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1130.377855 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7891f5618f69c975cfc9e8a7403410d4') in 0.010109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.269155 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Mat.mat
+  artifactKey: Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Mat.mat using Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133d5c36a6e261296af452958125229a') in 0.220893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.198488 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Mat.mat
+  artifactKey: Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Mat.mat using Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe318362a5ec3ed6910061191e9c23b') in 0.018323 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.0 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4858.
+Total: 4.511700 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.228200 ms MarkObjects: 2.766200 ms  DeleteObjects: 1.162100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.0 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4861.
+Total: 4.127100 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.244000 ms MarkObjects: 2.330900 ms  DeleteObjects: 1.176600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3613.707302 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPage@32x.png
+  artifactKey: Guid(14a8ae82d6c2846769a653bf9f4c0753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPage@32x.png using Guid(14a8ae82d6c2846769a653bf9f4c0753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17d74b855ed0f31db72313ea0b0e2f5') in 0.080078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AotPreBuildWindow/AotPreBuildPage@32x.png
+  artifactKey: Guid(46a8cbbe03c054fb5a8e0c5cdb4e23ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AotPreBuildWindow/AotPreBuildPage@32x.png using Guid(46a8cbbe03c054fb5a8e0c5cdb4e23ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36435414e6b35167787b03545623c74c') in 0.024840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges@32x.png
+  artifactKey: Guid(714feff620e1d064789b7374bf7f3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges@32x.png using Guid(714feff620e1d064789b7374bf7f3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4917f06a218609c4b3e96a1a7614b8d2') in 0.023482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Animation@32x.png
+  artifactKey: Guid(c5e5cff2de286da48afd51661f360935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Animation@32x.png using Guid(c5e5cff2de286da48afd51661f360935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a8b0c9a1da65ad47911d8694c49901') in 0.022561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges_Pro@64x.png
+  artifactKey: Guid(06b171c1b14afc8459b10375978b04be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges_Pro@64x.png using Guid(06b171c1b14afc8459b10375978b04be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a86a274566bff75593163e1e6d9ec47') in 0.020781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters@16x.png
+  artifactKey: Guid(44ba581dd78f4e84599a2d7c9a85bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters@16x.png using Guid(44ba581dd78f4e84599a2d7c9a85bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58444cadb5e2fad9341fdc70dd889001') in 0.023140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges@32x.png
+  artifactKey: Guid(33100c9680c806d439f7b1134d38e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges@32x.png using Guid(33100c9680c806d439f7b1134d38e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9994c61ffe131a1d1fb0593112e4bcd') in 0.026252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges_Pro@16x.png
+  artifactKey: Guid(772b31bfb05ffd24e903ac753fef6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges_Pro@16x.png using Guid(772b31bfb05ffd24e903ac753fef6669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86c00c126bd8a0eeabf7dda4ed03883') in 0.024276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges_Pro@64x.png
+  artifactKey: Guid(17d60a53a890d774bb220c008eca2552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges_Pro@64x.png using Guid(17d60a53a890d774bb220c008eca2552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97de8c072f5b88d6b56b20d290490ea') in 0.023777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowLeft@32x.png
+  artifactKey: Guid(ad9c220ecc1de4b2895bc9c816be7e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowLeft@32x.png using Guid(ad9c220ecc1de4b2895bc9c816be7e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdfb4a05b0971855bb38456ed85f4f4') in 0.027785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles_Pro@32x.png
+  artifactKey: Guid(1767f955a15663046a17fe02a81163e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles_Pro@32x.png using Guid(1767f955a15663046a17fe02a81163e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe64828db204f8c5d89f9009ce7e404') in 0.024047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Variables/ApplicationVariable@16x.png
+  artifactKey: Guid(fea5a20229e9248798f8e5f8c80c6ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Variables/ApplicationVariable@16x.png using Guid(fea5a20229e9248798f8e5f8c80c6ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5f1e12ad6808f933eb89beaf28e204') in 0.014627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges_Pro@16x.png
+  artifactKey: Guid(f631431e95a3acf46b8e40e041e62e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges_Pro@16x.png using Guid(f631431e95a3acf46b8e40e041e62e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c16a50d8c3189bfbe4dc078e3a1c98') in 0.028271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Variables/ApplicationVariable@32x.png
+  artifactKey: Guid(5a3ffb2fa426c41fcae1f5fd75f4f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Variables/ApplicationVariable@32x.png using Guid(5a3ffb2fa426c41fcae1f5fd75f4f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b461689cbf1c67cec88ce56a09655c5') in 0.015652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/Windows/UnitOptionsWizard/AssemblyOptionsPage@16x.png
+  artifactKey: Guid(e61d2292057534f508f9fea8650dee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/Windows/UnitOptionsWizard/AssemblyOptionsPage@16x.png using Guid(e61d2292057534f508f9fea8650dee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caba54ac114eb6fa57947ef467d9e296') in 0.025870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges_Pro@32x.png
+  artifactKey: Guid(6a68ddc0b5896354a96df99d902a66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges_Pro@32x.png using Guid(6a68ddc0b5896354a96df99d902a66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694b05978a7317b8efb8ec530ae012cd') in 0.024043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges@64x.png
+  artifactKey: Guid(05949b3ea15360946934c2411e34790d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges@64x.png using Guid(05949b3ea15360946934c2411e34790d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83352d9d80a9d319d14da02cd371a982') in 0.023800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges_Pro@16x.png
+  artifactKey: Guid(991c1eaac29af1240adada90ce73f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges_Pro@16x.png using Guid(991c1eaac29af1240adada90ce73f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3438ee77614f19924d8c372dbf42e289') in 0.025952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowUp@32x.png
+  artifactKey: Guid(2286bc01eda6540c187f98c73ef1270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowUp@32x.png using Guid(2286bc01eda6540c187f98c73ef1270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830951069d68c30e4e98c3975e7978b') in 0.030013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges_Pro@32x.png
+  artifactKey: Guid(ab7137e76fe7f01489a58f218eeca860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges_Pro@32x.png using Guid(ab7137e76fe7f01489a58f218eeca860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51c93b55642071e8bde2db5f165ee25') in 0.022081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters_Pro@64x.png
+  artifactKey: Guid(dbfcb8cb71d45364dbce212227922593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters_Pro@64x.png using Guid(dbfcb8cb71d45364dbce212227922593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d282601caa553328ad0dde595f8927') in 0.022898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles@16x.png
+  artifactKey: Guid(41e6b4b628364d040b50e986abd3df0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles@16x.png using Guid(41e6b4b628364d040b50e986abd3df0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c58306a4252d8881c7bb9e58516c8b') in 0.027067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges_Pro@16x.png
+  artifactKey: Guid(43640aebc148beb44813e9046a539d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges_Pro@16x.png using Guid(43640aebc148beb44813e9046a539d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7119d633e931d37bc09d37883dfee19b') in 0.028372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles@32x.png
+  artifactKey: Guid(92febc6a489caf04c853bb96d7ef6b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles@32x.png using Guid(92febc6a489caf04c853bb96d7ef6b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6fee2dfb4b8e994857a7aff6f240df') in 0.022949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges_Pro@32x.png
+  artifactKey: Guid(4e54663c6b3d5494f91ac5d5c4cb55bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges_Pro@32x.png using Guid(4e54663c6b3d5494f91ac5d5c4cb55bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dee03bd8788623155da75b2f27f341') in 0.025720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3407074a64a82fa51300a787a4fdd0') in 0.026824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges_Pro@64x.png
+  artifactKey: Guid(c0dc6ce1fa688c5458444ff428af3e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges_Pro@64x.png using Guid(c0dc6ce1fa688c5458444ff428af3e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64670f53b6b3efcff67276983801cbd') in 0.026642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges@64x.png
+  artifactKey: Guid(9893ee4ac5a36e84fb6e1b1fcfaa6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges@64x.png using Guid(9893ee4ac5a36e84fb6e1b1fcfaa6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd8ed119ee8ce256b5fdd79f7c0547e') in 0.024587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga
+  artifactKey: Guid(d1f1048909d55cd4fa1126ab998f617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga using Guid(d1f1048909d55cd4fa1126ab998f617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46c96e6c19fd12d3655bd632c624155') in 0.022202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges@16x.png
+  artifactKey: Guid(5ea33152e59ab5a498b4fde102bba2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges@16x.png using Guid(5ea33152e59ab5a498b4fde102bba2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed503118783fdaccd05964199c6f917') in 0.026797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles_Pro@16x.png
+  artifactKey: Guid(bae78a79e5f2f1a42b459c45cf2e6695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles_Pro@16x.png using Guid(bae78a79e5f2f1a42b459c45cf2e6695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2859e6e2e7d450a1523b0c8b531c995') in 0.024574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Resources/Advanced_UnPressed_mini.png
+  artifactKey: Guid(ad4dcac393f63f3468f6d9ff1652732e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Resources/Advanced_UnPressed_mini.png using Guid(ad4dcac393f63f3468f6d9ff1652732e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91ba7e76559da34a5245c9b9efbf85f') in 0.050965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges@32x.png
+  artifactKey: Guid(b07989970d3e19a449231ef7396dce6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignLeftEdges@32x.png using Guid(b07989970d3e19a449231ef7396dce6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492b7a5d41c87203ee93761e2a6cc0bf') in 0.030316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Add.png
+  artifactKey: Guid(cbaeed03e5416aa4bae23110b63a0c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Add.png using Guid(cbaeed03e5416aa4bae23110b63a0c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7977074f1fb0fb9ab807d7a1e0846f9') in 0.031588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Application@32x.png
+  artifactKey: Guid(ff659d75a7a360b4d932d43d3d674f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Application@32x.png using Guid(ff659d75a7a360b4d932d43d3d674f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174f3795a75be107e21aecaf26e6067e') in 0.031363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges@32x.png
+  artifactKey: Guid(2c41f97c8c6adf84c92e8ef335213d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges@32x.png using Guid(2c41f97c8c6adf84c92e8ef335213d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b06a56ae6f8d4b136ed6969000786f0') in 0.041310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters_Pro@16x.png
+  artifactKey: Guid(8f22ee4fd9513ac448583126ff00f69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters_Pro@16x.png using Guid(8f22ee4fd9513ac448583126ff00f69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e45b1cc7c7dc3f99b9998ffdbaf2bd') in 0.031443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000792 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges@16x.png
+  artifactKey: Guid(40613e48a04e7c6499a0d8adf42dba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges@16x.png using Guid(40613e48a04e7c6499a0d8adf42dba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b13441d70f5334b8636549731f86c') in 0.026287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001024 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters@32x.png
+  artifactKey: Guid(ca49d1d014cf6b04c88fb8f0154770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters@32x.png using Guid(ca49d1d014cf6b04c88fb8f0154770ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2816256cf7eb3559504404aa1d6b74d1') in 0.025251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges@64x.png
+  artifactKey: Guid(e417cf39b88215e4faa0410e11e2849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges@64x.png using Guid(e417cf39b88215e4faa0410e11e2849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6e8002c68e8d25e261e59ba044cda2') in 0.020603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png
+  artifactKey: Guid(b9d75ee465bf243539414eab3b94ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png using Guid(b9d75ee465bf243539414eab3b94ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27725c139061780f62ba92ac736a1b0') in 0.017411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges@64x.png
+  artifactKey: Guid(d3977addaef2ed24a8262c8eed02fafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges@64x.png using Guid(d3977addaef2ed24a8262c8eed02fafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b1b6365a1c61860384d44da05bd088') in 0.016356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges_Pro@64x.png
+  artifactKey: Guid(b6bfa937165291f4e8d4980c0e0adf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignBottomEdges_Pro@64x.png using Guid(b6bfa937165291f4e8d4980c0e0adf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401f100d317c1704de8a7876afb57b40') in 0.017268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters_Pro@32x.png
+  artifactKey: Guid(d3c8b9fbe53ec274e8a4895628ec79d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters_Pro@32x.png using Guid(d3c8b9fbe53ec274e8a4895628ec79d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf39c13a820ffc17bd25da505ef5f75') in 0.027908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles@64x.png
+  artifactKey: Guid(57d73d4a1c61fb64ebc68f5d4630b747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles@64x.png using Guid(57d73d4a1c61fb64ebc68f5d4630b747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c33cdcf1609cb6668f43de58863adf7') in 0.020887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges@16x.png
+  artifactKey: Guid(063cdb4dfb995c848b55fdf3c77cec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges@16x.png using Guid(063cdb4dfb995c848b55fdf3c77cec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c394905c80b0eb487df545c6dea7fc25') in 0.024918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges@16x.png
+  artifactKey: Guid(40b66512ba7f3cb41a1c0d2c3207e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignRightEdges@16x.png using Guid(40b66512ba7f3cb41a1c0d2c3207e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948fcf9a7d2472c3883d7a8be0b88c43') in 0.022300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters@64x.png
+  artifactKey: Guid(388625601570a564fa429bc3ef008e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignCenters@64x.png using Guid(388625601570a564fa429bc3ef008e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131580a9056c8709533f04a1bac6b247') in 0.021473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles_Pro@64x.png
+  artifactKey: Guid(47cf34b50c205e346982640695dbb7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignMiddles_Pro@64x.png using Guid(47cf34b50c205e346982640695dbb7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f17130ce84419d61ace3ea39ef6f92') in 0.022461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Add@2x.png
+  artifactKey: Guid(79aba0b290c471c4ba3d3f818d4e9b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Add@2x.png using Guid(79aba0b290c471c4ba3d3f818d4e9b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96de4bfcb5b11445b2df731b9943ec4c') in 0.027593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowRight@32x.png
+  artifactKey: Guid(0e42ba4a1f7814a709ba8d25e05f887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowRight@32x.png using Guid(0e42ba4a1f7814a709ba8d25e05f887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc9325a7c7477c5912a8787f7a30468') in 0.023916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AcknowledgementPage@32x.png
+  artifactKey: Guid(71ff4424a45a14d01aeb98f6e4673ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AcknowledgementPage@32x.png using Guid(71ff4424a45a14d01aeb98f6e4673ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165f11edc0059888e18c17c22d028084') in 0.026589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7634b6ff29db2dc52c9931c533edd7a1') in 0.026084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowDown@32x.png
+  artifactKey: Guid(d1ed4500ae26944d584abba29e74b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Arrows/ArrowDown@32x.png using Guid(d1ed4500ae26944d584abba29e74b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817bc2454f29cb7b92835f52cf0c81e9') in 0.025412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742b7ed4aedbde7690af35c186b340c9') in 0.025883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Animation@16x.png
+  artifactKey: Guid(be85d8ff7fa71db41805b8324c0968bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Animation@16x.png using Guid(be85d8ff7fa71db41805b8324c0968bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad57f78d0a72684888af9024289bbb62') in 0.024916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Application@16x.png
+  artifactKey: Guid(be7b68a778f5bb140bcd9a3ae00ffd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/EditorAssetResources/Icons/UnitCategories/Events/Application@16x.png using Guid(be7b68a778f5bb140bcd9a3ae00ffd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395aa927826b7e22b4daf1415426308') in 0.024560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Resources/Advanced_Pressed_mini.png
+  artifactKey: Guid(3e471b9fad7264146aa03aca58b27957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Resources/Advanced_Pressed_mini.png using Guid(3e471b9fad7264146aa03aca58b27957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d92819b2a20859b0e5a5ffe49680db') in 0.027066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges_Pro@32x.png
+  artifactKey: Guid(ad638b7f284d953418ddc4b22a86073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Enums/Ludiq.AlignOperation/AlignTopEdges_Pro@32x.png using Guid(ad638b7f284d953418ddc4b22a86073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e62967145cab4b61ed8ad2dc7adf74f') in 0.022297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f5b7f80a89a493797d6b67b0f12800') in 0.022003 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.4 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5770.
+Total: 4.108300 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.243800 ms MarkObjects: 2.274700 ms  DeleteObjects: 1.133700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.442774 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Mat.mat
+  artifactKey: Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Mat.mat using Guid(4147d9c2e842d5c44874e5ec9cb5fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.MaterialEditor:GetPreviewRendererUtility ()
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+ -> (artifact id: '386653ae2c825284a7e70cc7e8eb0cee') in 0.173834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 440.814778 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
+  artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb191b41702791de479b36b382ee662') in 0.012496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.401010 seconds.
+  path: Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph
+  artifactKey: Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders and Mats/Mesh based/Displacement Shader.shadergraph using Guid(80f1802188f9b5547bf51ced12a8af59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad87d37e75151da71a998569050673') in 0.004237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 862.108279 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946cc78769c7b53238106e68d501615d') in 0.009385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.259835 seconds.
+  path: Assets/Scripts/MeshGenerator.compute
+  artifactKey: Guid(d2947716aedbf2345900b1dc20097542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MeshGenerator.compute using Guid(d2947716aedbf2345900b1dc20097542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e468b5b109e6bcdd68af746e65670dd') in 0.013518 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 204.1 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5809.
+Total: 5.799800 ms (FindLiveObjects: 0.595400 ms CreateObjectMapping: 0.323500 ms MarkObjects: 3.665000 ms  DeleteObjects: 1.214700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 698.865755 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0194272536715d58e36e8d04b3b3d2b6') in 0.029023 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.5 MB.
+System memory in use after: 204.0 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5812.
+Total: 4.445300 ms (FindLiveObjects: 0.455300 ms CreateObjectMapping: 0.247800 ms MarkObjects: 2.624100 ms  DeleteObjects: 1.116400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 204.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5815.
+Total: 4.838200 ms (FindLiveObjects: 0.561900 ms CreateObjectMapping: 0.347500 ms MarkObjects: 2.834800 ms  DeleteObjects: 1.092600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 204.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5818.
+Total: 4.525600 ms (FindLiveObjects: 0.550700 ms CreateObjectMapping: 0.287600 ms MarkObjects: 2.588400 ms  DeleteObjects: 1.097800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 204.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5821.
+Total: 4.543300 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.308200 ms MarkObjects: 2.573400 ms  DeleteObjects: 1.167000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 204.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5824.
+Total: 5.081500 ms (FindLiveObjects: 0.489300 ms CreateObjectMapping: 0.411300 ms MarkObjects: 2.984900 ms  DeleteObjects: 1.194200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2161.839893 seconds.
+  path: Assets/Scripts/HeightmapGenerator.compute
+  artifactKey: Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeightmapGenerator.compute using Guid(ec5d58b90af1c1745a62c635bf17cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5144dad9b75df8ea49a5f7833cb5eaeb') in 0.120806 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 204.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5827.
+Total: 4.807800 ms (FindLiveObjects: 0.499200 ms CreateObjectMapping: 0.347700 ms MarkObjects: 2.837800 ms  DeleteObjects: 1.121800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 204.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5830.
+Total: 4.697100 ms (FindLiveObjects: 0.456200 ms CreateObjectMapping: 0.293800 ms MarkObjects: 2.782200 ms  DeleteObjects: 1.163700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.0 MB.
+System memory in use after: 204.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5833.
+Total: 4.144200 ms (FindLiveObjects: 0.450700 ms CreateObjectMapping: 0.270800 ms MarkObjects: 2.337600 ms  DeleteObjects: 1.083700 ms)
+
