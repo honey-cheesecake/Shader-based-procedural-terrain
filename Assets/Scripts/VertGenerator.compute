@@ -1,0 +1,18 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+RWStructuredBuffer<float3> verts;
+RWStructuredBuffer<float2> uvs;
+
+float dx, dy;
+uint xCount, yCount;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	if (id.x > (xCount - 1) || id.y > (yCount - 1)) { return; }
+	int idx = id.x + xCount  * id.y;
+	
+	verts[idx] = float3(dx * id.x, 0, dy * id.y);
+	uvs[idx] = float2((float)id.x / (float)(xCount - 1), (float)id.y / (float)(yCount - 1));
+}

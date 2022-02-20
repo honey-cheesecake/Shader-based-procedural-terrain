@@ -9,8 +9,8 @@ public class NoiseProfile {
     public float scale = 30;
     [Range(0, 10)] public float pow = 1;
     [Range(1, 5)] public int octaves = 3;
-    [RangeAttribute(0, 1)] public float persistance = 0.5f;
-    [RangeAttribute(1, 10)] public float lacunarity = 2;
+    [Range(0, 1)] public float persistance = 0.5f;
+    [Range(1, 10)] public float lacunarity = 2;
 
     public void Copy(NoiseProfile src) {
         seed = src.seed;

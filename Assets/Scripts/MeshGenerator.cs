@@ -11,6 +11,8 @@ public class MeshGenerator : MonoBehaviour {
     [SerializeField] float creviceHeightMult = 1f;
     [SerializeField] NoiseProfile creviceNoise = null;
 
+    [SerializeField] ComputeShader vertGeneratorShader = default;
+
     Mesh mesh; // output
 
     Vector3[] vertices;
@@ -69,17 +71,33 @@ public class MeshGenerator : MonoBehaviour {
         vertices = new Vector3[(numFaces.x + 1) * (numFaces.y + 1)];
         uvs = new Vector2[(numFaces.x + 1) * (numFaces.y + 1)];
 
-        float dx = size.x / numFaces.x;
-        float dy = size.y / numFaces.y;
+        var kernel = vertGeneratorShader.FindKernel("CSMain");
 
-        int idx = 0;
-        for (int y = 0; y <= numFaces.y; y++) {
-            for (int x = 0; x <= numFaces.x; x++) {
-                vertices[idx] = new Vector3(dx * x, 0, dy * y);
-                uvs[idx] = new Vector2((float)x / numFaces.x, (float)y / numFaces.y);
-                ++idx;
-            }
-        }
+        // set variables
+        vertGeneratorShader.SetFloat("dx", size.x / numFaces.x);
+        vertGeneratorShader.SetFloat("dy", size.y / numFaces.y);
+        vertGeneratorShader.SetInt("xCount", numFaces.x + 1);
+        vertGeneratorShader.SetInt("yCount", numFaces.y + 1);
+
+        // set buffers
+        var vertsBuffer = new ComputeBuffer(vertices.Length, System.Runtime.InteropServices.Marshal.SizeOf(typeof(Vector3)));
+        var uvsBuffer = new ComputeBuffer(uvs.Length, System.Runtime.InteropServices.Marshal.SizeOf(typeof(Vector2)));
+
+        vertsBuffer.SetData(vertices);
+        uvsBuffer.SetData(uvs);
+
+        vertGeneratorShader.SetBuffer(kernel, "verts", vertsBuffer);
+        vertGeneratorShader.SetBuffer(kernel, "uvs", uvsBuffer);
+
+        // diapatch
+        vertGeneratorShader.GetKernelThreadGroupSizes(kernel, out uint threadsX, out uint threadsY, out uint threadsZ);
+        vertGeneratorShader.Dispatch(kernel, Mathf.CeilToInt((float)(numFaces.x + 1) / threadsX), Mathf.CeilToInt((float)(numFaces.y + 1) / threadsY), 1);
+
+        // retreive data
+        vertsBuffer.GetData(vertices);
+        vertsBuffer.Dispose();
+        uvsBuffer.GetData(uvs);
+        uvsBuffer.Dispose();
     }
     void CreateTris() {
         triangles = new int[numFaces.x * numFaces.y * 6];
