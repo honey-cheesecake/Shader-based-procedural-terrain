@@ -4,18 +4,26 @@ using UnityEngine;
 
 public class MeshGenerator : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] MeshFilter meshFilter = default;
     [SerializeField] new Renderer renderer = default;
-    [SerializeField] Vector2Int numFaces = Vector2Int.one;
-    [SerializeField] Vector2 size = Vector2.one;
-    [SerializeField] float baseHeightMult = 1f;
-    [SerializeField] NoiseProfile baseNoise = null;
-    [SerializeField] float creviceHeightMult = 1f;
-    [SerializeField] NoiseProfile creviceNoise = null;
-
     [SerializeField] ComputeShader vertGeneratorShader = default;
     [SerializeField] ComputeShader heightmapGeneratorShader = default;
-    [SerializeField] RenderTexture renderTexture = default;
+    [SerializeField] ComputeShader heightmapMixerShader = default;
+
+    [Header("Settings")]
+    [SerializeField] Vector2Int numFaces = Vector2Int.one;
+    [SerializeField] Vector2 size = Vector2.one;
+
+    [Header("Noise")]
+    [SerializeField] NoiseProfile baseNoise = null;
+    [SerializeField] NoiseProfile mountainNoise = null;
+    [SerializeField] NoiseProfile creviceNoise = null;
+
+    [SerializeField] RenderTexture baseTexture = default;
+    [SerializeField] RenderTexture mountainTexture = default;
+    [SerializeField] RenderTexture creviceTexture = default;
+    [SerializeField] RenderTexture heightMap = default;
 
     Mesh mesh; // output
 
@@ -24,12 +32,28 @@ public class MeshGenerator : MonoBehaviour
     int[] triangles; // clockwise for right side up
 
     NoiseProfile baseNoiseCopy = null;
+    NoiseProfile mountainNoiseCopy = null;
     NoiseProfile creviceNoiseCopy = null;
-    float baseHeightMultCopy;
-    float creviceHeightMultCopy;
+
     void Start()
     {
         GenerateMesh();
+    }
+
+    void Update()
+    {
+        // saves performance by only updating mesh when dirty
+        if (baseNoiseCopy != baseNoise ||
+        mountainNoiseCopy != mountainNoise ||
+        creviceNoiseCopy != creviceNoise)
+        {
+            baseNoiseCopy.Copy(baseNoise);
+            mountainNoiseCopy.Copy(mountainNoise);
+            creviceNoiseCopy.Copy(creviceNoise);
+
+            GenerateHeightmap();
+            PushToMesh();
+        }
     }
 
     [ContextMenu("Generate")]
@@ -47,33 +71,14 @@ public class MeshGenerator : MonoBehaviour
         mesh = new Mesh();
         meshFilter.mesh = mesh;
 
-        CreateVerts();
-        SetHeight();
-
         // saves performance by only updating mesh when dirty
         baseNoiseCopy = new NoiseProfile();
+        mountainNoiseCopy = new NoiseProfile();
         creviceNoiseCopy = new NoiseProfile();
 
+        CreateVerts();
+        GenerateHeightmap();
         PushToMesh();
-    }
-
-    void Update()
-    {
-        // saves performance by only updating mesh when dirty
-        if (baseNoiseCopy != baseNoise ||
-        creviceNoiseCopy != creviceNoise ||
-        baseHeightMultCopy != baseHeightMult ||
-        creviceHeightMultCopy != creviceHeightMult)
-        {
-
-            baseNoiseCopy.Copy(baseNoise);
-            creviceNoiseCopy.Copy(creviceNoise);
-            baseHeightMultCopy = baseHeightMult;
-            creviceHeightMultCopy = creviceHeightMult;
-
-            SetHeight();
-            PushToMesh();
-        }
     }
 
     void CreateVerts()
@@ -116,12 +121,57 @@ public class MeshGenerator : MonoBehaviour
         trisBuffer.Dispose();
     }
 
-    void SetHeight()
+    void GenerateHeightmap()
     {
         //float[,] noise = NoiseMapGeneration.GenerateNoiseMap(numFaces.x + 1, numFaces.y + 1, 0, 0, noiseProfile);
-        renderTexture = baseNoise.GenerateNoiseMap(numFaces.x, numFaces.y, heightmapGeneratorShader);
+        heightMap = new RenderTexture(numFaces.x+1, numFaces.y+1, 0, RenderTextureFormat.ARGB32)
+        {
+            enableRandomWrite = true,
+            filterMode = FilterMode.Point,
+        };
+
+        heightMap.Create();
+
+        // make component textures
+        baseTexture = baseNoise.GenerateNoiseMap(numFaces.x+1, numFaces.y+1, heightmapGeneratorShader);
+        mountainTexture = mountainNoise.GenerateNoiseMap(numFaces.x+1, numFaces.y+1, heightmapGeneratorShader);
+        creviceTexture = creviceNoise.GenerateNoiseMap(numFaces.x+1, numFaces.y+1, heightmapGeneratorShader);
+
+        // mix
+        var kernel = heightmapMixerShader.FindKernel("CSMain");
+        heightmapMixerShader.SetTexture(kernel, "result", heightMap);
+        heightmapMixerShader.SetTexture(kernel, "base", baseTexture);
+        heightmapMixerShader.SetTexture(kernel, "mountain", mountainTexture);
+        heightmapMixerShader.SetTexture(kernel, "crevice", creviceTexture);
+        heightmapMixerShader.SetFloat("baseHeightMult", baseNoise.heightMult);
+        heightmapMixerShader.SetFloat("mountainHeightMult", mountainNoise.heightMult);
+        heightmapMixerShader.SetFloat("creviceHeightMult", creviceNoise.heightMult);
+        heightmapMixerShader.SetInt("xCount", numFaces.x + 1);
+        heightmapMixerShader.SetInt("yCount", numFaces.y + 1);
+
+        // set buffers
+        var vertsBuffer = new ComputeBuffer(vertices.Length, System.Runtime.InteropServices.Marshal.SizeOf(typeof(Vector3)));
+        vertsBuffer.SetData(vertices);
+        heightmapMixerShader.SetBuffer(kernel, "verts", vertsBuffer);
+
+        // dispatch
+        heightmapMixerShader.GetKernelThreadGroupSizes(kernel, out uint threadsX, out uint threadsY, out uint threadsZ);
+        heightmapMixerShader.Dispatch(kernel, Mathf.CeilToInt((float)(numFaces.x+1) / threadsX), Mathf.CeilToInt((float)(numFaces.y+1) / threadsY), 1);
+
         renderer.enabled = true;
-        renderer.sharedMaterial.SetTexture("_Texture2D", renderTexture);
+        renderer.sharedMaterial.SetTexture("_Texture2D", mountainTexture);
+
+        // retreive data
+        vertsBuffer.GetData(vertices);
+        vertsBuffer.Dispose();
+
+        PushToMesh();
+
+        baseTexture.Release();
+        mountainTexture.Release();
+        creviceTexture.Release();
+        heightMap.Release();
+
     }
 
     void PushToMesh()

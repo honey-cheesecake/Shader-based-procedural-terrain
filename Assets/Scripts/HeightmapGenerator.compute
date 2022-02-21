@@ -1,23 +1,53 @@
 #pragma kernel CSMain
 
 RWTexture2D<float> Result;
+
 int width, height;
 float2 offset;
 float scale;
 float power;
+bool ridge;
 
 float noise(float3 x);
 
 [numthreads(8, 8, 1)]
 void CSMain(uint3 id : SV_DispatchThreadID)
 {
+	float3 samplePoint = float3((float) id.x / width, (float)id.y/height, 1) * scale;
 	float3 offset3 = float3(offset, 0);
-	Result[id.xy] =
-		pow((noise(id * scale + offset3) +
-			0.5 * noise(id * 2 * scale + offset3) +
-			0.25 *  noise(id * 4 * scale + offset3) +
-			0.125 *noise(id * 8 * scale + offset3))
-		/ (1 + 0.5 + 0.25 + 0.215), power);
+	//float res = noise(samplePoint + offset3);
+
+	float res = noise(samplePoint + offset3) + 0.5 * noise(2 * samplePoint + offset3);
+	if (!ridge)
+	{
+		res += 0.25 *  noise(4* samplePoint + offset3) +
+			0.125 *noise(8* samplePoint + offset3);
+		res /= (1 + 0.5 + 0.25 + 0.125);
+	}
+	else
+	{
+		res /= (1 + 0.5);
+	}
+
+	if (ridge)
+	{
+		res = 2 * abs(res - 0.5f);
+	}
+	res = 1 - res;
+
+
+	if (res < 0)
+	{
+		res == 0;
+	}
+	else if (res > 1)
+	{
+		res == 1;
+	}
+
+	res = pow(res, power);
+
+	Result[id.xy] = res;
 }
 
 
@@ -41,8 +71,10 @@ float noise(float3 x)
 	f = f * f*(3.0 - 2.0*f);
 	float n = p.x + p.y*57.0 + 113.0*p.z;
 
-	return lerp(lerp(lerp(hash(n + 0.0), hash(n + 1.0), f.x),
+	float res = lerp(lerp(lerp(hash(n + 0.0), hash(n + 1.0), f.x),
 		lerp(hash(n + 57.0), hash(n + 58.0), f.x), f.y),
 		lerp(lerp(hash(n + 113.0), hash(n + 114.0), f.x),
 			lerp(hash(n + 170.0), hash(n + 171.0), f.x), f.y), f.z);
+
+	return res; 
 }

@@ -6,7 +6,8 @@ using UnityEngine;
 public class NoiseProfile {
     public Vector2 offset;
     public bool ridge;
-    [Range(0, 1)] public float scale = 0.2f;
+    [Range(0, 100)] public float scale = 0.2f;
+    [Range(0, 10)] public float heightMult = 1;
     [Range(0, 10)] public float pow = 1;
 
     public void Copy(NoiseProfile src) {
@@ -62,13 +63,14 @@ public class NoiseProfile {
         shader.SetTexture(kernel, "Result", renderTexture);
         shader.SetInt("width", mapWidth);
         shader.SetInt("height", mapHeight);
-        shader.SetFloat("scale", this.scale);
+        shader.SetFloat("scale", scale);
         shader.SetFloats("offset", offset.x, offset.y);
         shader.SetFloat("power", pow);
+        shader.SetFloat("heightMult", heightMult);
+        shader.SetBool("ridge", ridge);
 
         shader.GetKernelThreadGroupSizes(kernel, out uint threadsX, out uint threadsY, out uint threadsZ);
         shader.Dispatch(kernel, Mathf.CeilToInt((float)mapWidth / threadsX), Mathf.CeilToInt((float)mapHeight / threadsX), 1);
-
 
         return renderTexture;
     }
