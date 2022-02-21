@@ -6,7 +6,7 @@ RWTexture2D<float> base, mountain, crevice;
 float baseHeightMult, mountainHeightMult, creviceHeightMult;
 
 RWStructuredBuffer<float3> verts;
-int xCount, yCount;
+uint xCount, yCount;
 
 [numthreads(8, 8, 1)]
 void CSMain(uint3 id : SV_DispatchThreadID)

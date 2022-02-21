@@ -172,6 +172,7 @@ public class MeshGenerator : MonoBehaviour
         creviceTexture.Release();
         heightMap.Release();
 
+        //ExportRenderTexture(heightMap, @"C:\Users\user\Desktop\Unity Projects\Shader based procedural terrain\Assets\heightmap.png");      
     }
 
     void PushToMesh()
@@ -185,16 +186,19 @@ public class MeshGenerator : MonoBehaviour
         mesh.RecalculateNormals();
     }
 
-    /*
-    private void OnDrawGizmos() {
-        if (vertices == null) return;
-        Gizmos.color = Color.red;
-        foreach (Vector3 vert in vertices) {
-            if (vert.y < 0.0001) {
-                Gizmos.DrawSphere(vert, 0.1f);
-            }
-        }
+    // http://codewee.com/view.php?idx=131
+    void ExportRenderTexture(RenderTexture renderTexture, string file)
+    {
+        RenderTexture.active = renderTexture;
+        var texture = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.ARGB32, false, false);
+        texture.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+        texture.Apply();
+
+        byte[] bytes = texture.EncodeToPNG();
+        UnityEngine.Object.DestroyImmediate(texture);
+
+        System.IO.File.WriteAllBytes(file, bytes);
+
     }
-    */
 
 }
