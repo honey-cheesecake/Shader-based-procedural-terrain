@@ -55,7 +55,8 @@ public class NoiseProfile {
 
         var renderTexture = new RenderTexture(mapWidth, mapHeight, 0, RenderTextureFormat.ARGB32)
         {
-            enableRandomWrite = true
+            enableRandomWrite = true,
+            filterMode = FilterMode.Point
         };
         renderTexture.Create();
 

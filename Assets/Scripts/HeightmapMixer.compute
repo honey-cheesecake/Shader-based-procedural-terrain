@@ -1,7 +1,7 @@
 // Each #kernel tells which function to compile; you can have many kernels
 #pragma kernel CSMain
 
-RWTexture2D<float> result;
+RWTexture2D<float> heightmap;
 RWTexture2D<float> base, mountain, crevice;
 float baseHeightMult, mountainHeightMult, creviceHeightMult;
 
@@ -13,11 +13,12 @@ void CSMain(uint3 id : SV_DispatchThreadID)
 {
 	if (id.x > (xCount - 1) || id.y > (yCount - 1)) { return; }
 
-	result[id.xy] = (base[id.xy]) * baseHeightMult + (mountain[id.xy]) * mountainHeightMult - (crevice[id.xy]) * creviceHeightMult;
+	float result = (base[id.xy]) * baseHeightMult + (mountain[id.xy]) * mountainHeightMult - (crevice[id.xy]) * creviceHeightMult;
 
+	// update heightmap
+	heightmap[id.xy] = result / (baseHeightMult+ mountainHeightMult+ creviceHeightMult);
 
-	// update height
-
+	// update mesh
 	int vertIdx = id.x + xCount * id.y;
-	verts[vertIdx] += float3(0, result[id.xy], 0);
+	verts[vertIdx].y = result;
 }
