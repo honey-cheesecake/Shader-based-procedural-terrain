@@ -6,7 +6,7 @@ using UnityEngine;
 public class NoiseProfile {
     public Vector2 offset;
     public bool ridge;
-    [Range(0, 100)] public float scale = 0.2f;
+    [Range(0, 30)] public float scale = 0.2f;
     [Range(0, 10)] public float heightMult = 1;
     [Range(0, 10)] public float pow = 1;
 
@@ -14,6 +14,7 @@ public class NoiseProfile {
         offset = src.offset;
         ridge = src.ridge;
         scale = src.scale;
+        heightMult = src.heightMult;
         pow = src.pow;
     }
 
@@ -21,6 +22,7 @@ public class NoiseProfile {
         return (a.offset == b.offset) &&
         (a.ridge == b.ridge) &&
         (a.scale == b.scale) &&
+        (a.heightMult == b.heightMult) &&
         (a.pow == b.pow);
     }
 

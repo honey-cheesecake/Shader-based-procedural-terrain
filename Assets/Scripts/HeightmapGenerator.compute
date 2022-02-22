@@ -14,14 +14,14 @@ float noise(float3 x);
 void CSMain(uint3 id : SV_DispatchThreadID)
 {
 	float3 samplePoint = float3((float) id.x / width, (float)id.y/height, 1) * scale;
-	float3 offset3 = float3(offset, 0);
+	samplePoint += float3(offset, 0);
 	//float res = noise(samplePoint + offset3);
 
-	float res = noise(samplePoint + offset3) + 0.5 * noise(2 * samplePoint + offset3);
+	float res = noise(samplePoint) + 0.5 * noise(2 * samplePoint);
 	if (!ridge)
 	{
-		res += 0.25 *  noise(4* samplePoint + offset3) +
-			0.125 *noise(8* samplePoint + offset3);
+		res += 0.25 *  noise(4* samplePoint) +
+			0.125 *noise(8* samplePoint );
 		res /= (1 + 0.5 + 0.25 + 0.125);
 	}
 	else
