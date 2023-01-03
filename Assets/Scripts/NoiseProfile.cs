@@ -34,11 +34,7 @@ public class NoiseProfile {
     public override bool Equals(object obj)
     {
         var profile = obj as NoiseProfile;
-        return profile != null &&
-               offset == profile.offset &&
-               ridge == profile.ridge &&
-               scale == profile.scale &&
-               pow == profile.pow;
+        return profile != null && this == profile;
     }
 
     public override int GetHashCode()
